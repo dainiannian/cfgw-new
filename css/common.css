@@ -1,0 +1,120 @@
+body, h1, h2, h3, h4, h5, h6, hr, p,  
+dl, dt, dd, ul, ol, li, th, td, div, span, img,  
+button, input,table,tr,td{margin:0;padding:0;}
+
+ul li{list-style: none;}
+body{font-family:arial;background:#ebebeb;}
+img{border:none;}
+.clear{clear:both;}
+a{text-decoration: none;color:#666;}
+
+.clearfix:after{
+  content: "020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+  }
+
+.clearfix {
+  /* 触发 hasLayout */ 
+  zoom: 1; 
+  }
+.user-login{margin-left: 30px;}
+.f_left{float:left;}
+.f_right{float:right;}
+.w_1100{width:1100px;margin:0 auto;background:#fff; }
+.w_1100_center{width:1100px;margin:0 auto;}
+/*顶部登录*/
+#top{height:30px;background:#232428;width:100%;}
+#top_list{text-align: right;background:#232428;}
+#top_list a{color:#fff;font-size: 12px;padding-left:30px;}
+
+/*导航header*/
+#header{height:80px;width:100%;background:#000000;}
+#header_list{position:relative;}
+#header_list .list_left{width:300px;height:100%;position: absolute;left:0;}
+#header_list .list_left .logo_pic{float:left;}
+#header_list .list_left .logo_name{font-size: 18px;float:left;line-height:80px;display:block;font-size:30px;color:#fff;}
+#header_list .list_right{line-height:80px; text-align:right;height:100%;position:absolute;right:0;}
+.list_item{text-align: right;}
+.list_item li{float:left;padding:0px 10px;}
+.list_item li.bg-white{background:#fff;}
+.list_item li.bg-white a{color:#1a1a1a;}
+.list_item li:hover{background: #fff;}
+.list_item li:hover a{color:#000;}
+.list_right a{color:#fff;}
+/*footer内容*/
+#footer{margin-bottom: 56px;}
+#footer .footer_list{margin-top: 35px;width:100%;height:64px;border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+.m_center{width:1100px;margin:0 auto;text-align: center;line-height:80px;}
+.m_center a{color:#6c6c6c;padding:0px 25px;font-size: 14px;}
+.bottom_title{text-align: center;padding-top: 20px;color:#6c6c6c;font-size: 12px;}
+
+
+/*登录style开始*/
+
+/*login样式*/
+*{padding:0px;margin:0px}               
+.layer_orderMsg{ width:438px;position:fixed;_position: absolute;top:10%;left:50%;_top: expression(documentElement.scrollTop + 340 + "px");  
+    background:#f9f9f9;  margin-left:-250px;
+    z-index:99999; font-size:14px;color:#000;box-shadow: 0 0 5px #666;} 
+#layer_frame{background:#f9f9f9;display:none;font-family:"arial";color:#6c6c6c;border:2px solid #efefef;margin:0 auto;font-size:12px;padding:4px;}
+#register_frame{background:#f9f9f9;font-family:"arial";color:#6c6c6c;border:2px solid #efefef;margin:0 auto;font-size:12px;padding:4px;}
+#layer_orderMsg a{color:#6c6c6c;}
+#layer_orderMsg {color:#6c6c6c;}
+#layer_orderMsg a:hover{color:#ff8239;}
+.close_pic{width:22px;height:22px;float:right;font-size:20px;cursor:pointer;}
+.center_main{width:260px;margin:0 auto;}
+.one_div{text-align: right;height:30px;line-height:30px;margin-bottom: 20px;}
+.two_div{margin-bottom: 25px;}
+input{color:#999;}
+.common_c input:focus{color:#000;}
+
+.three_div{margin-bottom:5px;}
+.one_div .logoin{font-size: 20px;float:left;}
+.register{font-family:"微软雅黑";} 
+#register{text-decoration: underline;}
+.common_c{width:250px;border:1px solid #ebebeb;height:40px;padding-left: 10px;line-height: 40px;background:#fff;}
+.common_c input{border:none;background:none;height:40px;width:200px;line-height:36px;}
+.four_div p{height:20px;padding-top:5px;color:red;display:block;}
+.new_div{margin-bottom: 25px;}
+.five_div{height:30px;line-height:30px;margin-bottom:20px;}
+.five_div .l_f{float:left;}
+.five_div .l_f span{}
+.five_div .r_f{float:right;width:80px;float:right;}
+.five_div .r_f input{;color:#fff;font-family:"微软雅黑";}
+.six_div{margin-bottom:40px;margin-top:15px;}
+.six_div input{border:none;background:none;font-size:18px;font-family:"微软雅黑";width:260px;height:40px;background:#ff8239;color:#fff;}
+#charge{cursor:pointer;}
+
+/* 忘记密码 忘记密码 */
+#forget_password_frame{background:#f9f9f9;display:none;}
+.forget_password_p{width:260px;margin:0 auto;}
+.forget_password_p p.f_b{font-size: 20px;margin-bottom: 20px;}
+#checked_number{width:150px;}
+.get_number{cursor:pointer;border:none;background:none;background:#ff8239;width:88px;color:#fff;font-family:"微软雅黑";}
+.forget_password_p span{display:block;float:left;}
+.forget_password_p .right_input_01{margin-left:10px;*margin-left:5px;}
+.right_input_02{margin-left:10px;width:76px;text-align:center;color:#6c6c6c;font-size:24px;font-weight: 700;}
+#next_stage{cursor:pointer;width:260px;font-family:"微软雅黑";color:#fff;background:#ff8239;}
+#reset_main{width:260px;margin:0 auto;}
+
+#reset_password{background:#f9f9f9;display:none;}
+#new_password{margin-bottom: 25px;}
+#sure_password{margin-bottom: 25px;}
+#reset_pass{margin-bottom: 40px;width:262px;color:#fff;background: #ff8239;font-family:"微软雅黑";font-size:18px;}
+.fore{margin-bottom: 25px;}
+.p_style{display:block;width:40px;float:left;}
+
+.res_p{margin-bottom:25px;}
+/*登录样式结束*/
+/*服务协议*/
+#agreement_frame{background:#f9f9f9;position:absolute;top:0;left:0; width:100%;display:none;}
+#agreement_frame p.service_agree{text-align:center;font-size:20px;}
+.ser_list {font-family:"微软雅黑";font-size:12px;line-height:18px;display:block;width:300px;height: auto!important;max-height: 420px;margin:0 auto;margin-bottom: 20px;overflow-y: auto;}
+.ser_list span{margin-top:15px;display:block;}
+.get_m{background:#ff8239};
+
+
+

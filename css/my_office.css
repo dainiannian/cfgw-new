@@ -1,0 +1,38 @@
+/*图片内容|文字*/
+#model_002{background: #e7e7e7;position:relative;}
+#model_002 .m_002_l{width:120px;float:left;}
+#model_002 .m_002_l.fixed{position:fixed;top:0;}
+#model_002 .m_002_l span{display:block;text-align:center;}
+#model_002 .m_002_r{float:right;width:880px;background:#fff;padding:0px 50px 100px 50px;}
+
+/*小图标*/
+.or_div{padding:10px 33px;color:#6b6b6b;position:relative;background:#e7e7e7;}
+.or_div .icon_picture{width:54px;height:56px;overflow:hidden;margin-bottom:3px;display:block;} 
+.or_div .lit_p{position:absolute;top:50%;margin-top:-8px;right:0;display:none;width:12px;height:14px;background:url(../images/icon.png) no-repeat -288px 0px;}
+.or_div.bgcolor{background:#ff8328;color:#fff;}
+.or_div .lit_p.appear{display:block;}
+
+/*关注|预约*/
+#model_001{width:100%;background:#232428;height:100px;}
+#model_001 .m_content{position:relative;}
+.intro_pic a{display:block;height:80px;width:80px;margin-right:10px;float:left;margin-left:90px;overflow: hidden;border-radius:100px;margin-top: 7px;}
+.intro_detail_model001{color:#ccccad;height:100px;line-height: 100px;}
+.intro_detail_model001 a{color:#ccc;font-size:14px;padding:0px 20px;font-weight:600;}
+.intro_detail_model001 a.wd{font-size:18px;color:#fff;padding:0px 20px;}
+.sv_title{position:relative;border-bottom:1px solid #ccc;margin-bottom: 30px;}
+.sv_title p{font-size:20px;padding:15px 0px;color:#ff8238;}
+.sv_title .c_div{position:absolute;left:0;bottom:0;width:78px;height:3px;background:#ff8238;}
+.sv_title .complete{position:absolute;right:0;bottom:5px;padding:5px 10px;border:1px solid #ff8238;}
+.complete a{color:#ff8238;font-size:12px;}
+
+.pic001{background: url("../images/icon.png") no-repeat -247px -413px;}
+.pic002{background: url("../images/icon.png") no-repeat -242px -230px;}
+.pic003{background: url("../images/icon.png") no-repeat -239px -293px}
+.pic004{background: url("../images/icon.png") no-repeat -244px -355px;}
+
+.pic001.w_color_01{background: url(../images/icon.png) no-repeat -171px -413px}
+.pic002.w_color_02{background: url(../images/icon.png) no-repeat -178px -229px;}
+.pic003.w_color_03{background: url(../images/icon.png) no-repeat -175px -293px;}
+.pic004.w_color_04{background: url(../images/icon.png) no-repeat -169px -355px;}
+
+#content_frame{margin:0px 30px;}

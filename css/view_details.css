@@ -1,0 +1,54 @@
+#conten_v_details{padding:0px 30px 60px 30px;}
+.vd_left{width:660px;}
+.v_d_title{padding:10px 0px;color:#6c6c6c;font-family:"arial";font-size:12px;}
+.per_l{width:330px;height:30px;}
+.per_r{width:140px;}
+.headline{font-size:22px;font-weight:600;font-family:"宋体";padding:20px 0px;color:#6c6c6c;}
+.foot_text{height:30px;line-height:30px;}
+.foot_pic{margin-right:10px;}
+.foot_text span{padding:5px 10px;}
+.foot_text span.type{margin-right:10px;background:#ccc;color:#6c6c6c;font-size:12px;}
+.foot_label{color:#7b7b7b;font-size:12px;}
+.date_per{display:block;height:30px;line-height:30px;color:#7b7b7b;font-size: 12px;}
+.per_i{padding-bottom:20px;}
+.essay{padding-bottom:10px;}
+.p2{color:#6c6c6c;font-size:12px;line-height:20px;font-family:"微软雅黑";margin-bottom:20px;}
+.comment{color:#1a1a1a;font-size:12px;}
+
+/*评论框*/
+.comment_item{text-align:right;}
+.write_text{display:block;height:90px;border:1px solid #ccc;margin:30px 0px 10px 0px;}
+.write_text input{width:658px;height:88px;border:none;}
+.publish{cursor:pointer;font-size:14px;font-weight:600;border:none;background:none;background:#ff8339;width:94px;height:36px;color:#fff;}
+
+/*已发表的评论*/
+.comment_list{margin:30px 0px;}
+.pl{display:block;padding:15px 15px;px;border-bottom:1px solid #ccc;}
+.pl.b_b{border-top:1px solid #ccc;}
+.pl_pic{display:block;width:40px;height:40px;overflow:hidden;margin-right: 15px;}
+.pl_txt{display:block;width:500px;float:left;}
+.pl_txt span{display:block;}
+.n_com{margin-bottom: 10px;}
+.n_com a{color:#ff8339;}
+.c_words{font-family:"microsoft yahei";color:#7b7b7b;font-size:12px;line-height:18px;}
+.pl_time{font-size:12px;color:#6c6c6c;}
+.paging{text-align:center;}
+.paging a{color:#6c6c6c;}
+
+/*右边栏开始*/
+.vgr_pic{width:330px;height:300px;border:1px solid #6c6c6c;margin-top: 55px;}
+.re_r{position:relative;margin-top:10px;}
+.re_r p{font-size:18px;padding:15px 0px;border-bottom:1px solid #ccc;color:#ff8328;}
+.re_div{width:74px;height:3px;background:#ff8328;position:absolute;bottom:0;left:0;}
+
+.re_item{padding:20px 0px;border-bottom:1px solid #ccc;}
+.re_item .i_left{overflow: hidden;width:40px;height:40px;}
+.re_words{margin-bottom:5px;height:17px;overflow:hidden;display:block;width:250px;font-size:14px;font-weight:600;}
+.i-label{height:22px;width:190px; overflow:hidden; }
+.i-label-date{display:block;height:30px;line-height:30px;}
+
+.re_words a{color:#6c6c6c;}
+.i_right{margin-left: 15px;}
+.i_right span{color:#b9b9b9;font-size: 12px;}
+.i_right span.bg_gray{margin-right:20px;color:#6c6c6c;background:#f2f2f2;padding:3px 10px;}
+

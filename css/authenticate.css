@@ -1,0 +1,20 @@
+.do_title{margin-top:40px;color:#6c6c6c;font-size:24px;}
+.un_txt{color:#b29761;font-size: 12px;font-weight:normal;}
+.un_pic{padding:0 13px;background:url(../images/icon.png) no-repeat -364px 0px;}
+.b_label{border-bottom:1px solid #ccc;}
+.b_txt{padding:15px 0px;border-bottom:3px solid #ff8328;display:block;width:68px;color:#ff8328;}
+/*工作室认证*/
+.w_a{border-bottom:1px solid #ccc;}
+.w_a_title{padding:15px 0px;display:block;width:85px;border-bottom: 3px solid #ff8328;color:#ff8328;}
+.a_containter{margin-top:35px;color:#6c6c6c;font-family:"microsoft yahei";}
+.a_left{width:630px;}
+.a_txt{width:160px;}
+.a_detail{width:440px;overflow: hidden;}
+.a_uploading{color:#6c6c6c;border:1px solid #1a1a1a;display:block;width:100px;text-align:center;height:30px;line-height:30px;font-size:12px;}
+.text{font-size: 12px;padding:40px 0px;color:#c6c6c6;line-height:22px;}
+.input_txt{margin-bottom:15px;width:250px;height:30px;padding:0px 5px;border:1px solid #ccc;}
+
+.a_right{width:170px;}
+.example{margin-bottom:10px;}
+.apply_btn{text-align:center;margin-top: 100px;}
+.apply_sure{padding:5px 20px;background:#ff8328;color:#fff;border:none;font-family:"microsoft yahei";cursor:pointer;}

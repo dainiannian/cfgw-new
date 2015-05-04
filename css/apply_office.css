@@ -1,0 +1,40 @@
+.jcDateColor{font-size:12px;color:#555555;} 
+ #jcDateBtn{font-size:12px;color:#555555;} 
+/*中间主体部分*/
+.t_model{font-family:"microsoft yahei";color:#6c6c6c;}
+.sv_title p{font-family:"arial";font-size:20px;}
+.to_text{width:145px;text-align:right;margin-right:20px;}
+.to_item span{margin-right:20px;}
+.to_item{width:650px;}
+.id_text{margin-bottom: 30px;}
+.message{width:250px;height:30px;}
+.to_item input{color:#000;padding-left:10px;}
+.sv_title span{padding:15px 0px;}
+
+#forever{font-family:'arial';color:#1a1a1a;}
+.u_pic{width:122px;height:90px;overflow: hidden;}
+.u_txt{display:block;text-align:center;color:#6c6c6c;border:1px solid #ccc;width:100%;height:30px;line-height:30px;margin-top: 7px;}
+.for_example{position:relative;margin-left: 30px;}
+.for_example span{display:block;float:left;}
+
+.for_pic{width:345px;height:90px;overflow:hidden;float:left;}
+.saw_link{position:absolute;left:70px;bottom:-37px;color:#4861a4;display:block;margin-top: 7px;height:30px;line-height: 30px;}
+
+
+/*step2  基本信息*/
+.warming{font-size: 14px;color:#ccc;}
+.to_item select{width:60px;height:30px;}
+#addre_de{height:30px;}
+#m_text{width:440px;height:100px;margin-bottom:10px;}
+#div01{width:149px;}
+#div02{width:149px;}
+#div03{width:170px;}
+/*step3*/
+.else_c{margin-left:20px;font-size: 12px;color:#ccc;}
+.preview{float:left;width:350px;}
+.preview a{display:block;width:125px;height:30px;line-height:30px;text-align:center;border:1px solid #1a1a1a;color:#6c6c6c;font-size:12px;}
+.preview p{font-size: 12px;color:#ccc;padding:30px 0px 0px 0px;}
+.pre_pic{float:right;}
+.p_p{width:150px;height:112px;overflow: hidden;}
+.sure_btn{text-align: center;}
+#sure_btn{border:none;background: none;width:160px;height:50px;background:#ff8328;color:#fff;font-family:"microsoft yahei";font-size: 18px;}

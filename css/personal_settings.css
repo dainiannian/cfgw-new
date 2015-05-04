@@ -1,0 +1,53 @@
+.p_01.bg_01{background:url(../images/icon.png) no-repeat -308px -31px;}
+.p_02.bg_02{background:url(../images/icon.png) no-repeat -314px -87px;}
+.p_03.bg_03{background:url(../images/icon.png) no-repeat -308px -31px;}
+
+.p_01{background:url(../images/icon.png) no-repeat -385px -31px;}
+.p_02{background:url(../images/icon.png) no-repeat -386px -90px;}
+.p_03{background:url(../images/icon.png) no-repeat -386px -150px;}
+
+/*个人资料*/
+.personal_title{margin-top:40px;margin-bottom:40px;border-bottom:1px solid #ccc;}
+.p_label{padding:15px 0px;color:#ff8328;border-bottom:3px solid #ff8328;display:block;width:68px;}
+.p_data{width:360px;margin: auto;}
+.up_link{padding:5px 20px;border:1px solid #6c6c6c;}
+.up_btn{font-size:12px;color:#1a1a1a;}
+.up_btn a{font-size:12px;color:#1a1a1a;}
+.pic_text{color:#6c6c6c;font-size: 14px;margin-top:20px;}
+
+.pic_preview{margin-top:15px;font-size:14px;}
+.pic_preview span{display:block;}
+.p_l{margin-top:100px;margin-right: 10px;}
+.p_r{width:270px;height:260px;border:1px solid #ccc;overflow:hidden;}
+
+
+.per_content{color:#6c6c6c;font-size:14px;}
+.p_div{margin-top:15px;}
+.p_div span{display:block;}
+.p_div input.common_input{border:1px solid #ccc;height:30px;}
+.ni_name{width:90px;}
+.ni_text select{color:#6c6c6c;width:80px;height:20px;}
+.sw{border:1px solid #ccc;width:260px;height:100px;}
+.short_words{border:none;width:260px;height:80px;overflow:hidden;}
+.bottom_txt{text-align:right;}
+
+
+.btns{text-align:center;margin-top:40px;}
+.sure_btn{padding:10px 70px;cursor:pointer;font-size:16px;color:#fff;background:#ff8328;border:none;}
+.a_div{margin-top:15px;}
+
+/*补充资料*/
+.add_data{color:#6c6c6c;font-size:14px;}
+.a_l{width:80px;}
+
+.real_name{border:1px solid #ccc;width:180px;height:30px;}
+.up_b{border:none;background:#ff8328;color:#fff;padding:5px 20px;cursor:pointer;}
+.title{margin-top: 10px;color:#ccc;}
+.a_div span{display:block;}
+.picture_preview{width:700px;height:200px;border:1px solid #ccc;overflow:hidden;} 
+
+
+.text_area{width:700px;height:120px;}
+.add_label{padding:3px 20px;color:#6c6c6c;border:1px solid #ccc;}
+.bottom_btn{margin-top:20px;text-align:center;}
+.s_btn{cursor:pointer;padding:7px 60px;font-size:14px;border:none;color:#fff;background:#ff8328;}

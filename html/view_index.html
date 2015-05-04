@@ -1,0 +1,565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>观点首页</title>
+	<link href="../css/common.css" type="text/css" rel="stylesheet">
+	<link href="../css/view_index.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="../js/jquery-1.2.6.pack.js"></script>
+  <script type="text/javascript" src="../js/login.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function(){
+              //上一页，下一页样式
+              $('.b_page').each(function (index){
+                 $(this).click(function(){
+                     $('.b_page').removeClass('b_color');
+                     $(this).addClass('b_color');
+                     $('##next_above span').css({'margin-right':'32px'})
+                 });
+              });
+              $('.b_n_h span').each(function (index){
+                  $(this).click(function(){
+                      $('.b_n_h span').removeClass('b_color');
+                      $(this).addClass('b_color');
+                      var left=index*55
+                      $('.color_div').css({'margin-left':left});
+                  });
+              });
+          });
+            
+      </script>
+	
+</head>
+<body>
+	<!-- 头部开始 -->
+	<div id="top">
+        <div id="top_list" class="w_1100">
+        	<a href="javascript:void(0)" class="login_in" onclick ="login();">登录/</a>
+        	<a href="javascript:void(0)" class="register_js" style="padding-left:0px;" onclick ="register();">注册</a>
+        	<a href="javascript:void(0)" class="join_js">加盟工作室</a>
+        	<a href="javascript:void(0)" class="common_cf">大众理财</a>
+        </div>
+	</div>
+	<div id="header">
+		<div id="header_list" class="w_1100">
+			<div class="list_left">
+				<p class="logo_pic"><img src="../images/logo.jpg" alt="logo" /></p>
+				<span class="logo_name">嘉实财富</span>
+			</div>
+			<div class="list_right">
+				<ul class="list_item">
+					<li><a href="">定制服务</a></li>
+					<li><a href="">顾问/工作室</a></li>
+					<li><a href="">观点视角</a></li>
+					<li><a href="">产品投资</a></li>
+					<div class="clear"></div>
+				</ul>	
+			</div>
+		</div>
+	</div>
+  <!-- 头部结束 -->
+    <!-- 主体部分start -->
+    <div id="view_index" class="w_1100">
+        <div id="view_bannner">
+            <p class="v_title">首页&gt;观点首页</p>
+            <div class="v_left">
+                <div class="div_00 float_v">
+                  <a href="javascript:void(0);"><img src="../images/renwu/v-1.jpg" alt="v-1.jpg" /></a>
+                  <div class="pic_txt">
+                     <p class="introduce_p">
+                        张小龙：二维码取代搜索框，微信是去中心化、中介化的生态系统。
+                     </p>
+                  </div>
+                </div>
+                <div class="div_01 float_v div_bg">
+                   <p class="x_txt">程序员，让你的孩子当个网页工程师吧！</p>
+                </div>
+                <div class="div_02 float_v div_bg">
+                   <p class="x_txt">两年前的程维：差一点就放弃滴滴了！</p>
+                </div>
+                <div class="div_03 float_v div_bg">
+                   <p class="x_txt">程序员，让你的孩子当个网页工程师吧！</p>
+                </div>
+                <div class="div_04 float_v div_bg">
+                   <p class="x_txt">程序员，让你的孩子当个网页工程师吧！</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="v_right"></div>
+            <div class="clear"></div>
+        </div>
+        <div id="view_content">
+            <div id="best-left" class="v_con">
+                <div class="best_title">
+                    <p class="b_n_h">
+                        <span class="b_color">最新</span>|
+                        <span class="">最热</span>
+                    </p>
+                    <div class="color_div"></div>
+                </div>
+                <div class="view_item" style="position:relative;">
+                    <div class="neweat" style="display:block;">
+                        <div class="best_list">
+                              <div class="best_pic content_div">
+                                  <a href="javascript:void(0);"><img src="../images/detail_02.png" alt="" /></a>
+                              </div>
+                              <div class="best_text content_div">
+                                  <p class="title_p">
+                                      <a href="javascript:void(0);">投资市场最新行情探讨</a>
+                                  </p>
+                                  <p class="txt_p">
+                                      业务能力和竞争能力稳居龙头地位。中信的传统和创新业务都居行业领先水平，经纪、投行、资管业务的市场份额居行业首位。中信系下的两融、股权质押融资、约定购回、权益互换等业务实现快速增长，市场份额均居市场前位。股权投资业务实现多元化发展，各业务领先优势显著，已形成很强的综合竞争力，龙头地位持续稳固。
+                                  </p>
+                                  <div class="foot_txt">
+                                      <div class="foot_left">
+                                         <div class="foot_pic">
+                                              <a href="javascript:void(0);"><img src="../images/renwu/c-1.jpg" alt="" /></a>
+                                         </div>
+                                         <div class="foot_text">
+                                              <span class="foot_name">祁世超</span>
+                                              <span class="type">基金</span>
+                                              <span class="type">房贷</span>
+                                         </div>
+                                         <div class="clear"></div>                                     
+                                      </div>
+                                      <div class="foot_right"></div>
+                                      <div class="clear"></div>
+                                  </div>
+                                  <div class="foot_date">
+                                      <span class="people">25</span>
+                                      <span>人已看</span>
+                                      <span class="date">12-20</span>
+                                  </div>
+                              </div>
+                              <div class="clear"></div>
+                        </div>
+                        <div class="best_list">
+                              <div class="best_pic content_div">
+                                  <a href="javascript:void(0);"><img src="../images/detail_02.png" alt="" /></a>
+                              </div>
+                              <div class="best_text content_div">
+                                  <p class="title_p">
+                                      <a href="javascript:void(0);">投资市场最新行情探讨</a>
+                                  </p>
+                                  <p class="txt_p">
+                                      业务能力和竞争能力稳居龙头地位。中信的传统和创新业务都居行业领先水平，经纪、投行、资管业务的市场份额居行业首位。中信系下的两融、股权质押融资、约定购回、权益互换等业务实现快速增长，市场份额均居市场前位。股权投资业务实现多元化发展，各业务领先优势显著，已形成很强的综合竞争力，龙头地位持续稳固。
+                                  </p>
+                                  <div class="foot_txt">
+                                      <div class="foot_left">
+                                         <div class="foot_pic">
+                                              <a href="javascript:void(0);"><img src="../images/renwu/c-1.jpg" alt="" /></a>
+                                         </div>
+                                         <div class="foot_text">
+                                              <span class="foot_name">祁世超</span>
+                                              <span class="type">基金</span>
+                                              <span class="type">房贷</span>
+                                         </div>
+                                         <div class="clear"></div>                                     
+                                      </div>
+                                      <div class="foot_right"></div>
+                                      <div class="clear"></div>
+                                  </div>
+                                  <div class="foot_date">
+                                      <span class="people">25</span>
+                                      <span>人已看</span>
+                                      <span class="date">12-20</span>
+                                  </div>
+                              </div>
+                              <div class="clear"></div>
+                        </div>
+                        <div class="best_list">
+                              <div class="best_pic content_div">
+                                  <a href="javascript:void(0);"><img src="../images/detail_02.png" alt="" /></a>
+                              </div>
+                              <div class="best_text content_div">
+                                  <p class="title_p">
+                                      <a href="javascript:void(0);">投资市场最新行情探讨</a>
+                                  </p>
+                                  <p class="txt_p">
+                                      业务能力和竞争能力稳居龙头地位。中信的传统和创新业务都居行业领先水平，经纪、投行、资管业务的市场份额居行业首位。中信系下的两融、股权质押融资、约定购回、权益互换等业务实现快速增长，市场份额均居市场前位。股权投资业务实现多元化发展，各业务领先优势显著，已形成很强的综合竞争力，龙头地位持续稳固。
+                                  </p>
+                                  <div class="foot_txt">
+                                      <div class="foot_left">
+                                         <div class="foot_pic">
+                                              <a href="javascript:void(0);"><img src="../images/renwu/c-1.jpg" alt="" /></a>
+                                         </div>
+                                         <div class="foot_text">
+                                              <span class="foot_name">祁世超</span>
+                                              <span class="type">基金</span>
+                                              <span class="type">房贷</span>
+                                         </div>
+                                         <div class="clear"></div>                                     
+                                      </div>
+                                      <div class="foot_right"></div>
+                                      <div class="clear"></div>
+                                  </div>
+                                  <div class="foot_date">
+                                      <span class="people">25</span>
+                                      <span>人已看</span>
+                                      <span class="date">12-20</span>
+                                  </div>
+                              </div>
+                              <div class="clear"></div>
+                        </div>
+                        <div class="best_list">
+                              <div class="best_pic content_div">
+                                  <a href="javascript:void(0);"><img src="../images/detail_02.png" alt="" /></a>
+                              </div>
+                              <div class="best_text content_div">
+                                  <p class="title_p">
+                                      <a href="javascript:void(0);">投资市场最新行情探讨</a>
+                                  </p>
+                                  <p class="txt_p">
+                                      业务能力和竞争能力稳居龙头地位。中信的传统和创新业务都居行业领先水平，经纪、投行、资管业务的市场份额居行业首位。中信系下的两融、股权质押融资、约定购回、权益互换等业务实现快速增长，市场份额均居市场前位。股权投资业务实现多元化发展，各业务领先优势显著，已形成很强的综合竞争力，龙头地位持续稳固。
+                                  </p>
+                                  <div class="foot_txt">
+                                      <div class="foot_left">
+                                         <div class="foot_pic">
+                                              <img src="../images/renwu/c-1.jpg" alt="" />
+                                         </div>
+                                         <div class="foot_text">
+                                              <span class="foot_name">祁世超</span>
+                                              <span class="type">基金</span>
+                                              <span class="type">房贷</span>
+                                         </div>
+                                         <div class="clear"></div>                                     
+                                      </div>
+                                      <div class="foot_right"></div>
+                                      <div class="clear"></div>
+                                  </div>
+                                  <div class="foot_date">
+                                      <span class="people">25</span>
+                                      <span>人已看</span>
+                                      <span class="date">12-20</span>
+                                  </div>
+                              </div>
+                              <div class="clear"></div>
+                        </div>
+                        <div class="best_list">
+                              <div class="best_pic content_div">
+                                  <a href="javascript:void(0);"><img src="../images/detail_02.png" alt="" /></a>
+                              </div>
+                              <div class="best_text content_div">
+                                  <p class="title_p">
+                                      <a href="javascript:void(0);">投资市场最新行情探讨</a>
+                                  </p>
+                                  <p class="txt_p">
+                                      业务能力和竞争能力稳居龙头地位。中信的传统和创新业务都居行业领先水平，经纪、投行、资管业务的市场份额居行业首位。中信系下的两融、股权质押融资、约定购回、权益互换等业务实现快速增长，市场份额均居市场前位。股权投资业务实现多元化发展，各业务领先优势显著，已形成很强的综合竞争力，龙头地位持续稳固。
+                                  </p>
+                                  <div class="foot_txt">
+                                      <div class="foot_left">
+                                         <div class="foot_pic">
+                                              <a href="javascript:void(0);"><img src="../images/renwu/c-1.jpg" alt="" /></a>
+                                         </div>
+                                         <div class="foot_text">
+                                              <span class="foot_name">祁世超</span>
+                                              <span class="type">基金</span>
+                                              <span class="type">房贷</span>
+                                         </div>
+                                         <div class="clear"></div>                                     
+                                      </div>
+                                      <div class="foot_right"></div>
+                                      <div class="clear"></div>
+                                  </div>
+                                  <div class="foot_date">
+                                      <span class="people">25</span>
+                                      <span>人已看</span>
+                                      <span class="date">12-20</span>
+                                  </div>
+                              </div>
+                              <div class="clear"></div>
+                        </div>
+                        <div class="best_list">
+                              <div class="best_pic content_div">
+                                  <a href="javascript:void(0);"><img src="../images/detail_02.png" alt="" /></a>
+                              </div>
+                              <div class="best_text content_div">
+                                  <p class="title_p">
+                                      <a href="javascript:void(0);">投资市场最新行情探讨</a>
+                                  </p>
+                                  <p class="txt_p">
+                                      业务能力和竞争能力稳居龙头地位。中信的传统和创新业务都居行业领先水平，经纪、投行、资管业务的市场份额居行业首位。中信系下的两融、股权质押融资、约定购回、权益互换等业务实现快速增长，市场份额均居市场前位。股权投资业务实现多元化发展，各业务领先优势显著，已形成很强的综合竞争力，龙头地位持续稳固。
+                                  </p>
+                                  <div class="foot_txt">
+                                      <div class="foot_left">
+                                         <div class="foot_pic">
+                                              <a href="javascript:void(0);"><img src="../images/renwu/c-1.jpg" alt="" /></a>
+                                         </div>
+                                         <div class="foot_text">
+                                              <span class="foot_name">祁世超</span>
+                                              <span class="type">基金</span>
+                                              <span class="type">房贷</span>
+                                         </div>
+                                         <div class="clear"></div>                                     
+                                      </div>
+                                      <div class="foot_right"></div>
+                                      <div class="clear"></div>
+                                  </div>
+                                  <div class="foot_date">
+                                      <span class="people">25</span>
+                                      <span>人已看</span>
+                                      <span class="date">12-20</span>
+                                  </div>
+                              </div>
+                              <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="hotteat" style="display:none;overflow:hidden;border:1px solid black;position:absolute;top:0;left:0;">
+                        <div class="best_list">
+                              <div class="best_pic content_div">
+                                  <a href="javascript:void(0);"><img src="../images/detail_02.png" alt="" /></a>
+                              </div>
+                              <div class="best_text content_div">
+                                  <p class="title_p">
+                                      投资市场最新行情探讨
+                                  </p>
+                                  <p class="txt_p">
+                                      业务能力和竞争能力稳居龙头地位。中信的传统和创新业务都居行业领先水平，经纪、投行、资管业务的市场份额居行业首位。中信系下的两融、股权质押融资、约定购回、权益互换等业务实现快速增长，市场份额均居市场前位。股权投资业务实现多元化发展，各业务领先优势显著，已形成很强的综合竞争力，龙头地位持续稳固。
+                                  </p>
+                                  <div class="foot_txt">
+                                      <div class="foot_left">
+                                         <div class="foot_pic">
+                                              <img src="../images/renwu/c-1.jpg" alt="" />
+                                         </div>
+                                         <div class="foot_text">
+                                              <span class="foot_name">祁世超</span>
+                                              <span class="type">基金</span>
+                                              <span class="type">房贷</span>
+                                         </div>
+                                         <div class="clear"></div>                                     
+                                      </div>
+                                      <div class="foot_right"></div>
+                                      <div class="clear"></div>
+                                  </div>
+                                  <div class="foot_date">
+                                      <span class="people">25</span>
+                                      <span>人已看</span>
+                                      <span class="date">12-20</span>
+                                  </div>
+                              </div>
+                              <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="hot_right" class="v_con">
+                <div class="search_in">
+                    <div class="search_text"><input type="text" /></div>
+                    <div class="search_pic">
+                        <img src="../images/icon.jpg" alt="" />
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="hot_word">
+                  <p class="word_color">热门标签</p>
+                  <div class="colorful_div"></div>
+                </div>
+                <div class="word_item">
+                     <span class="w_list"><a href="javascript:void(0);">证券</a></span>
+                     <span class="w_list"><a href="javascript:void(0);">理财产品</a></span>
+                     <span class="w_list"><a href="javascript:void(0);">P2P</a></span>
+                     <span class="w_list"><a href="javascript:void(0);">基金</a></span>
+                     <span class="w_list"><a href="javascript:void(0);">房贷</a></span>
+                     <span class="w_list"><a href="javascript:void(0);">年终奖</a></span>
+                     <span class="w_list"><a href="javascript:void(0);">股票</a></span>
+                     <span class="w_list"><a href="javascript:void(0);">债券</a></span>
+                     <span class="w_list"><a href="javascript:void(0);">存款</a></span>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!--page页面start-->
+            <div id="next_above">
+                  <span><a class="prev_p" href="javascript:void(0)">上一页</a></span>
+                  <span class="b_page b_color">1</span>
+                  <span class="b_page">2</span>
+                  <span class="b_page">3</span>
+                  <span class="b_page">4</span>
+                  <span class="b_page">5</span>
+                  <span>...</span>
+                  <span><a class="next_p" href="javascript:void(0)">下一页</a></span>
+            </div>
+            <!--page页面end-->
+        </div>
+    </div>
+    <!-- 主体部分end -->
+
+    <!-- 底部开始 -->
+    <div id="footer">
+		     <div class="footer_list">
+        			<div class="m_center">
+        				<span><a href="javascript:void(0)">关于我们</a></span>
+        				<span><a href="javascript:void(0)">联系我们</a></span>
+        				<span><a href="javascript:void(0)">加盟我们</a></span>
+        				<span><a href="javascript:void(0)">帮助中心</a></span>
+        				<span><a href="javascript:void(0)">用户反馈</a></span>
+        			</div>
+		     </div>
+		     <div class="bottom_title">&copy;2014&nbsp;&nbsp;neartrader京公网安备11010802012285号 | 京icp备12031756号-3</div>
+	  </div>
+	  <!-- 底部结束 -->
+	  <!--登录开始-->
+    <div id="layer_orderMsg" class="layer_orderMsg">
+            <div id="layer_frame">                 
+                 <div class="close">
+                      <div class="close_pic" onclick="closeWindow01();">&Chi;</div>                                             
+                      <div class="clear"></div>
+                 </div>
+                 <div class="center_main">
+                   <form action="">
+                    <div class="one_div">
+                      <span class="logoin">登录</span>
+                      <span class="register">没有账号？<a id="register" href="javascript:void(0);" onclick="register()">点击注册</a></span>
+                      <div class="clear"></div>
+                    </div>
+                      <div class="two_div common_c">
+                        <p class="p_style">账号：</p>
+                        <input type="text" id="user" value="昵称/手机号" onfocus="if(value=='昵称/手机号'){value=''}" onblur="if(value==''){value='昵称/手机号'}"/>
+                      </div>
+                    <div class="three_div common_c">
+                      <p class="p_style">密码：</p>
+                        <input type="password" id="password" value=""/>
+                    </div>
+                    <div class="four_div">
+                      <p><!-- *账号和密码不匹配，请重新输入 --></p>
+                    </div>
+                    <div class="five_div">
+                      <div class="l_f">
+                        <span>
+                          <input type="checkbox" name="" value=""/>
+                        </span>
+                          <span>记住我</span>
+                      </div>
+                      <div class="r_f">
+                        <a href="javascript:void(0);" onclick="forgetPassword();">忘记密码</a>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                    <div class="six_div">
+                      <input type="button" name="" value="登录" id="charge"/>
+                    </div>
+                   </form>
+                 </div>
+            </div>
+            <div id="register_frame" style="display:none;">
+                 <div class="close">
+                      <div class="close_pic" onclick="closeWindow02();">&Chi;</div>                              
+                      <div class="clear"></div>
+                 </div>
+                 <div class="center_main">
+                   <form action="">
+                    <div class="one_div">
+                      <span class="logoin">注册</span>
+                      <span class="register">已有账号？<a id="register" href="javascript:void(0);" onclick="login();">点击登录</a></span>
+                      <div class="clear"></div>
+                    </div>
+                      <div class="two_div common_c">
+                        <p class="p_style">昵称：</p>
+                        <input type="text" id="username"/>
+                      </div>
+                      <div class="new_div common_c">
+                        <p class="p_style">手机：</p>
+                        <input type="text" id="p_number"/>
+                      </div>
+                    <div class="three_div common_c">
+                      <p class="p_style">密码：</p>
+                        <input type="password" id="password" value=""/>
+                    </div>
+                    <div class="four_div">
+                      <p>密码为6位字符以上</p>
+                    </div>
+                    <div class="five_div">
+                      <div class="l_f common_c" style="width:140px;">
+                              <input type="text" value="请输入验证码" onfocus="if(value=='请输入验证码'){value=''}" onblur="if(value==''){value='请输入验证码'}"/></div>
+                      <div class="r_f common_c get_m">
+                              <input type="button" value="获取验证码" style="width:80px;"/>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                    <div class="agreement">
+                      <input type="checkbox" name="" id="" checked="checked"/>
+                      我已阅读嘉实并同意<a href="javascript:void(0);" onclick="agreement();" style="text-decoration:underline;">嘉实财富网上服务协议</a>
+                    </div>
+                    <div class="six_div">
+                      <input type="button" name="" value="登录" id="charge"/>
+                    </div>
+                   </form>
+                 </div>
+            </div>
+            <div id="agreement_frame">
+                 <div class="close">
+                        <div class="close_pic" onclick="closeWindow03();">&Chi;</div>                              
+                        <div class="clear"></div>
+                   </div>
+                 <p class="service_agree">服务协议</p>
+                 <p class="ser_list">
+                    <span>1.&nbsp;&nbsp;特别提示</span>
+                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣。
+                        <span>2.&nbsp;&nbsp;服务内容</span>
+                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
+                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣。
+                 </p>
+            </div>
+            <div id="forget_password_frame">
+              <div class="close">
+                  <div class="close_pic" onclick="closeWindow04();">&Chi;</div>                              
+                  <div class="clear"></div>
+              </div>
+              <div class="forget_password_p">
+                <p class="f_b">忘记密码</p>
+                <div class="fore">
+                  <input type="text" value="请输入手机号" class="common_c" onfocus="if(value=='请输入手机号'){value=''}" onblur="if(value==''){value='请输入手机号'}"/>
+                </div>
+                <div class="fore">
+                  <span class="left_input_01">
+                      <input type="text" value="请输入验证码" id="checked_number" class="common_c" onfocus="if(value=='请输入验证码'){value=''}" onblur="if(value==''){value='请输入验证码'}"/>
+                      </span>
+                      <span class="right_input_01">
+                        <input type="button" id="get_number" class="get_number common_c" value="获取验证码"/>
+                      </span>
+                      <div class="clear"></div>    
+                </div>
+                    <div class="fore">
+                      <span class="left_input_02">
+                      <input type="text" value="请输入右图字母" id="checked_number" class="common_c" onfocus="if(value=='请输入右图字母'){value=''}" onblur="if(value==''){value='请输入右图字母'}"/>
+                      </span>
+                      <span class="right_input_02 common_c">
+                        zdou
+                      </span>
+                      <div class="clear"></div>                      
+                    </div>
+                    <div class="fore" style="margin-bottom:60px;">
+                      <input type="button" id="next_stage" class="common_c" value="下一步" onclick="reset_password();"/>
+                    </div>                                    
+              </div>
+            </div>
+            <div id="reset_password">
+              <div class="close">
+                  <div class="close_pic" onclick="closeWindow05();">&Chi;</div>                           
+                  <div class="clear"></div>
+              </div>
+              <div id="reset_main">
+                <p class="res_p">重置密码</p>
+                <input type="text" value="输入新密码" id="new_password" class="common_c"/>
+                <input type="text" value="再次输入新密码" id="sure_password" class="common_c"/>
+                  <input type="button" value="重置" class="common_c" id="reset_pass" onclick="reset_pass();"/>
+              </div>
+            </div>
+    </div>
+    <!--登录结束-->
+</body>
+</html>

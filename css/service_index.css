@@ -1,0 +1,43 @@
+/*左边内容*/
+#ser_content{font-family:"微软雅黑";color:#666;}
+#ser_title{padding-top:15px;padding-left:30px;margin-bottom:15px;}
+.ser_left_div{float:left;margin:0px 30px;background:#e7e7e7;width:170px;}
+.ser_left_div li{cursor:pointer;width:170px;height:50px;text-align:center;line-height: 50px;}
+.ser_left_div li.o_color{background:#ff8239;color:#fff;}
+/*右边内容*/
+.ser_right_div{float:left;padding-bottom: 65px;}
+.ser_right_div .list_picture{overflow:hidden;width:850px;height:180px;}
+.internal{position:relative;font-size:20px;padding:20px 0px;border-bottom:1px solid #ccc;margin-top:10px;color:#ff8328;}
+.internal .o_color_div{position:absolute;width:82px;height:3px;background:#ff8328;bottom:0;left:0;}
+.internal_text{font-size:12px;display:block;width:850px;margin:20px 0px ;}
+
+/*投资顾问介绍*/
+.common_css{float:left;}
+.left_div{width:100px;height:100px;border-radius:100px;overflow: hidden;}
+.adviser_det{color:#000;font-weight:600;padding:20px 20px 20px 0px;border-bottom:1px solid #ccc;}
+.center_div{width:520px;margin:0px 10px 0px 10px;}
+.center_div p{display:block;margin: 10px;}
+.center_div .p2{font-size: 12px;color:#1a1a1a;height:50px;overflow:hidden;}
+.right_div{font-size:12px;}
+.right_div p{display:block;}
+.list_p1{margin-bottom:10px;}
+.list_p1 span{display:block;float:left;}
+.list_p1 .pic{overflow:hidden;width:50px;height:50px;}
+.list_p1 .txt{padding:10px;}
+.list_p2 span{padding:3px 5px;overflow:hidden;margin:3px;float:left;margin-right:7px;color:#6c6c6c;display:block;font-size:12px;text-align:center;background:#f2f2f2;} 
+.list_p2{overflow:hidden;max-height:60px;width:205px;}
+/*投资观点*/
+.investment{display:block;padding:20px 0px;color:#1a1a1a;border-bottom:1px solid #ccc;}
+.investment .invest_left{margin-right: 60px;}
+.invest_text{color:#1a1a1a;overflow:hidden;}
+.investment .inv_c{float:left;width:395px;}
+.invest_title{font-size:20px;}
+p.in_02{font-size:12px;padding:20px 0px;}
+
+.b_person .b_fl{float:left;}
+.b_person .b_pic{border-radius:50px;overflow:hidden;margin-right:10px;border:1px solid black;width:30px;height:30px;}
+.b_person .b_txt{width:180px;height:30px;width:205px;overflow:hidden;margin-right:34px;height:30px;line-height:30px;font-size:14px;}
+.b_person .b_txt .zc{padding:5px 10px;background:#f2f2f2;color:#6c6c6c;}
+.b_date{font-size:14px;height:30px;line-height:30px;}
+.more_view a{color:#6c6c6c;display:block;text-align: right;padding:10px 0px;font-size: 12px;}
+

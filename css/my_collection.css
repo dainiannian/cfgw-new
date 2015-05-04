@@ -1,0 +1,95 @@
+/*关注|预约*/
+#model_001{width:100%;background:#232428;height:100px;}
+#model_001 .m_content{position:relative;}
+.intro_pic a{display:block;height:80px;width:80px;margin-right:10px;float:left;margin-left:90px;overflow: hidden;border-radius:100px;margin-top: 7px;}
+.intro_detail_model001{color:#ccccad;height:100px;line-height: 100px;}
+.intro_detail_model001 a{color:#ccc;font-size:14px;padding:0px 20px;font-weight:600;}
+.intro_detail_model001 a.wd{font-size:18px;color:#fff;padding:0px 20px;}
+.sv_title{position:relative;border-bottom:1px solid #ccc;}
+.sv_title p{font-size:20px;padding:15px 0px;color:#ff8238;}
+.sv_title .c_div{position:absolute;left:0;bottom:0;width:78px;height:3px;background:#ff8238;}
+.sv_title .complete{position:absolute;right:0;bottom:5px;padding:5px 10px;border:1px solid #ff8238;}
+.complete a{color:#ff8238;font-size:12px;}
+
+/*图片内容|文字*/
+#model_002{background: #e7e7e7;position:relative;}
+#model_002 .m_002_l{width:120px;float:left;}
+#model_002 .m_002_l.fixed{position:fixed;top:0;}
+#model_002 .m_002_l span{display:block;text-align:center;}
+#model_002 .m_002_r{float:right;width:880px;background:#fff;padding:0px 50px 120px 50px;}
+
+
+/*小图标*/
+.or_div{padding:10px 33px;color:#6b6b6b;position:relative;background:#e7e7e7;}
+.or_div .icon_picture{width:54px;height:56px;overflow:hidden;margin-bottom:3px;display:block;} 
+.or_div .pic_01{background: url(../images/icon.png) no-repeat -249px -230px;}
+.or_div .pic_02{background: url(../images/icon.png) no-repeat -249px -286px;}
+.or_div .pic_03{background: url(../images/icon.png) no-repeat -151px -45px;}
+.or_div .pic_04{background: url(../images/icon.png) no-repeat -237px -164px;}
+.or_div .lit_p{position:absolute;top:50%;margin-top:-8px;right:0;display:none;width:12px;height:14px;background:url(../images/icon.png) no-repeat -288px 0px;}
+.or_div.bgcolor{background:#ff8328;color:#fff;}
+.or_div .lit_p.appear{display:block;}
+.or_div .pic_01.bg_01{background: url(../images/icon.png) no-repeat -183px -230px;} 
+.or_div .pic_02.bg_02{background: url(../images/icon.png) no-repeat -182px -286px;}
+.or_div .pic_03.bg_03{background: url(../images/icon.png) no-repeat -97px -45px;}
+.or_div .pic_04.bg_04{background: url(../images/icon.png) no-repeat -183px -164px;}
+
+
+/*页脚上下翻页*/
+#next_above{margin-top: 40px;padding-top:45px;padding-bottom:30px;width:452px;margin:0 auto;}
+#next_above span{margin-right:30px;font-family:arial;font-size: 12px;}
+#next_above a{color:#666666;}
+.b_page{padding:5px;cursor:pointer;}
+.b_page.b_color{border:1px solid #ccc;color:#f59853;}
+
+
+/*顾问相关style*/
+.sv_title{margin-bottom:30px;}
+.f_container{margin-bottom:50px;}
+.left_column{width:580px;}
+.co_text{width:480px;margin-left: 10px;color:#6c6c6c;font-family:"microsoft yahei";font-size:12px;}
+.co_pic{width:80px;height:80px;border:1px solid #ccc;border-radius:80px;overflow:hidden;}
+.co_label{font-size:14px;margin-bottom:15px;}
+.co_label a{color:#ff0000;font-size: 12px;font-family:"arial";}
+.co_con{height:50px;overflow:hidden;}
+
+.right_column{width:200px;font-family:"microsoft yahei";color:#6c6c6c;}
+.right_column p{display:block;}
+.c_p1{height:30px;line-height:30px;overflow:hidden;font-size:12px;margin-bottom:5px;}
+.small_pic{display:block;width:30px;height:30px;overflow:hidden;}
+.small_pic img{width:30px;height:30px;} 
+.c_p2 span{display:block;float:left;padding:5px 7px;margin:0px 3px 5px;background:#f2f2f2;font-size: 12px;}
+
+
+/*工作室相关style*/
+.f_ad_item {font-family: "microsoft yahei";color:#6c6c6c;}
+.picture_l{margin-right:50px;width:100px;height:100px;overflow:hidden;}
+.in_office{width:420px;font-size: 12px;}
+.name_off{font-size: 16px;margin-bottom: 20px;}
+.name_off a{color:#6c6c6c;}
+.adviser_num{font-size:12px;margin-left:20px;}
+.right_column a{color:#6c6c6c;}
+
+/*观点相关style*/
+#new_idea_list{margin-top: 15px;}
+#new_idea_list .new_item{margin-bottom: 40px;}
+.new_fl{width:172px;}
+.new_fr{padding-left:10px;width:680px;}
+.new_fr .ne_title{font-size:20px;color:#333333;position:relative;}
+.new_fr .ne_title .del{position:absolute;right:0;top:0px;color:#ff0000;font-size: 12px;}
+.intro_detail{text-indent:2em;font-size:14px;color:#6b6b6b; line-height: 22px;height:84px;overflow:hidden;}
+.b_f{display:block;float:left;line-height:35px;color:#cccccc;}
+.b_f .f1{margin-left: 30px;}
+.b_f .f2{margin-left: 25px;}
+.b_f .gray_div{padding:5px 15px;background:#cccccc;color:#fff;}
+.b_r{float:right;font-size: 12px;color:#6c6c6c;margin-top:10px;}
+.pi_date{margin-right:10px;}
+
+/*产品推荐*/
+
+#product_name{padding: 15px 0px;}
+#table_02 td{border:1px solid #e7e7e7;border-right:none;border-bottom:1px solid #e7e7e7;border-top:none;}
+#table_02 td a{text-decoration: underline;}
+#table_02 td a.del{color:#ff8328;text-decoration:none;}
+#table_02{font-size: 12px;font-family: "微软雅黑";color:#7a7a7a;}
+#table_01{font-weight:600;color:#7a7a7a;}

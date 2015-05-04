@@ -1,0 +1,51 @@
+/*第一个模块*/
+.o_d_model_01{height:200px;font-family:"微软雅黑";width:100%;background:#232428;color:#fff;}
+.o_d_model_01 .hw{padding:30px;position:relative;}
+.o_d_model_01 .hw .hw_left{width:60%;float:left;}
+.hw_left .hw_pic{width:140px;height:140px;float:left;margin-right:50px;overflow:hidden;}
+.hw_left .hw_pic .office_pic{width:140px;height:140px;}
+.hw_left .hw_text{float:left;}
+.hw_p1{font-size:14px;margin-bottom:40px;line-height: 22px;}
+.hw_p1 .span01{font-size:20px;margin-right:10px;}
+.hw_p2{font-size:12px;line-height: 22px;}
+.phone_num{margin-left:58px;} 
+/*第二个模块*/
+.o_d_model_02{width:100%;height:65px;background:#fff;border-bottom:1px solid #d6d6d6;}
+.o_d_model_02.position{position:fixed;top:0;z-index:999;box-shadow:1px 1px 2px #ccc;}
+.o_d_model_02 .hw_list li{width:180px;text-align:center;float:left;line-height:65px;} 
+.navigation{position:relative;display:block;margin-left:190px;}
+.hw_item .child_item{display:block;font-family:"微软雅黑";color:#666;}
+.orange_item{position:absolute;bottom:0;width:180px;height:4px;background:#ff8239;}
+.orange_item.orange{color:#ff8239;}
+/**/
+/*主体内容 照片*/
+.contact_item {padding-top:10px;padding-left: 32px;}
+.contact_item li{float:left;margin-right: 40px;width:227px;margin-bottom: 30px;}
+.contact_item li .person_picture{position:relative;height:160px;}
+.contact_item li:hover .mask{display:block;}
+.contact_item li:hover .triangle{display:block;}
+.person_name{padding:5px 0px;}
+.person_name .p_name{width:60px;font-family:arial;}
+.person_name .adder_name{font-size:12px;float:right;}
+.person_describe{width:227px;height:30px;overflow:hidden;}
+.person_describe span.de_tit{margin-right:10px;padding:5px;font-size:12px;background:#f2f2f2;display:block;float:left;}
+#title_three{margin-right:0px;}
+/*照片遮罩*/
+.mask{display:none;position:absolute;left:0;top:-179px;width:229px;height:160px;background:#333;filter: alpha(opacity=50);opacity: 0.5;color:#fff;font-size:12px;}
+.mask.show{display:block;}
+.triangle{display:none;width:55px;height:28px;position:absolute;top:-26px;left:50%;margin-left:-30px;background:url(../images/icon.png) no-repeat 0px -456px;}
+.triangle.appear{display:block;}
+/*主体内容 照片*/
+
+
+/*第三个模块开始*/
+#office_introduce{padding:60px 32px 0px 32px;}
+
+
+#an_advisory{padding:60px 0px 0px 0px;}
+.title_01{margin-bottom: 28px;margin-top: 20px;font-size:20px;}
+.part_01 p{margin-bottom: 40px;}
+.hw_introduce{font-family:"微软雅黑";font-size:14px;color:#666;padding-bottom:80px;} 
+.hw_introduce a{color:#666;}
+
+

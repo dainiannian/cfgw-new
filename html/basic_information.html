@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>基本信息</title>
+  <link href="../css/common.css" type="text/css" rel="stylesheet">
+  <link href="../css/my_office.css" type="text/css" rel="stylesheet">
+  <link href="../css/basic_information.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
+  <script type="text/javascript" src="../js/common.js"></script>
+  <script type="text/javascript">
+     $(document).ready(function(){
+          var ID=$('.id_approve').html();
+          if(ID=='管理员、顾问'||ID=='管理员'){
+                $('.change_id').show();
+                $('.change_id').click(function(){
+                     $('#admin').show();
+                       $('.save').click(function(){
+                           var val=$('#admin_id').find("option:selected").text();
+                           $('.id_approve').text(val);
+                           $('#admin').hide();
+                       });
+                });
+          }else if(ID=='创建人'||ID=='创建人、顾问'){
+                $('.change_id').show();
+                $('.change_id').click(function(){
+                     $('#create').show();
+                     $('.save').click(function(){
+                           var val=$('#admin_id').find("option:selected").text();
+                           $('.id_approve').text(val);
+                           $('#admin').hide();
+                       });
+                });
+          }else{
+             return;
+          }
+     });
+       
+  
+  </script>
+</head>
+<body>
+  <!-- 导航开始 -->
+  <div id="top">
+        <div id="top_list" class="w_1100">
+          <a href="javascript:void(0)" class="login_in" onclick ="login();">登录</a>
+          <a href="javascript:void(0)" class="common_cf">大众理财</a>
+        </div>
+  </div>
+  <div id="header">
+    <div id="header_list" class="w_1100">
+      <div class="list_left">
+        <a href="index.html" class="logo_pic"><img src="../images/logo.jpg" alt="logo" /></a>
+        <span class="logo_name">嘉实财富</span>
+      </div>
+      <div class="list_right">
+        <ul class="list_item clearfix">
+          <li class="bg-white"><a href="javascript:void(0);">顾问/工作室</a></li>
+          <li><a href="product.html">产品投资</a></li>
+          <li><a href="personal_information.html">个人首页</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 导航结束 -->
+    <div id="model_001">
+      <div class="m_content w_1100_center">
+        <div class="div_left clearfix">
+          <div class="intro_pic">
+              <a href="javascript:void(0);"><img src="../images/renwu/ren-2.jpg" alt="" /></a>
+          </div>
+          <div class="intro_detail_model001 f_left">
+              <a href="javascript:void(0);">个人主页</a>
+              <a href="javascript:void(0);">关注收藏</a>
+              <a href="javascript:void(0);" class="wd">我的工作室</a>
+              <a href="javascript:void(0);">个人设置</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="model_002" class="w_1100_center clearfix">
+        <div class="m_002_l">
+            <a href="#" id="md_04">
+                <span class="or_div bgcolor">
+                  <span class="icon_picture pic001 w_color_01"></span>
+                  <i class="lit_p appear"></i>
+                  基本信息
+                </span>
+            </a>
+            <a href="#" id="md_01">
+                <span class="or_div">
+                    <span class="icon_picture pic002"></span>
+                    <i class="lit_p"></i>
+                    创建工作室
+                </span>
+            </a>
+            <a href="#" id="md_02">
+                <span class="or_div">
+                    <span class="icon_picture pic003"></span>
+                    <i class="lit_p"></i>
+                    装修工作室
+                </span>
+            </a>
+            <a href="#" id="md_03">
+              <span class="or_div">
+                <span class="icon_picture pic004"></span>
+                <i class="lit_p"></i>
+                顾问管理
+                </span>
+            </a>
+        </div>
+        <div class="m_002_r">
+          <div id="content_frame">
+              <h2>基本信息</h2>
+              <div id="basic_content">
+                  <div class="id_title">
+                      <p class="id_mess">身份信息</p>
+                  </div>
+                  <div class="id_text clearfix">
+                       <div class="id_left f_left">
+                           所属工作室：<span>嘉实财富北京大望路工作室</span>
+                       </div>
+                       <div class="id_right f_left"><a href="javascript:void(0);" onclick="getoff();">离开工作室</a></div>
+                  </div>
+                  <div class="id_text clearfix">
+                       <div class="id_left f_left">
+                           工作室身份：<span class="id_approve">管理员、顾问</span>
+                       </div>
+                       <div class="id_right f_left change_id"><a href="javascript:void(0);">修改</a></div>
+                  </div>
+                  <div id="admin" class="id_text">
+                      <div class="change">
+                           <select name="" id="admin_id">
+                               <option value="">顾问</option>
+                               <option value="">管理员</option>
+                               <option value="">管理员、顾问</option>
+                           </select>
+                           <input type="button" value="保存" class="save"/>
+                      </div>
+                  </div>
+                  <div id="create" class="id_text">
+                      <div class="change">
+                           <select name="" id="">
+                               <option value="">创建人</option>
+                               <option value="">创建人、顾问</option>
+                           </select>
+                           <input type="button" value="保存" class="save"/>
+                      </div>
+                  </div>
+              </div>
+              <div id="add_office">
+                  <p class="a_label">您尚未加入任何一家工作室。只有加入工作室才能成为顾问。</p>
+                  <div class="option clearfix">
+                      <div class="f_k f_left">
+                          <input type="text" class="i_search"/>
+                          <a href="javascript:void(0)" class="s_icon"></a>
+                      </div>                      
+                      <a href="javascript:void(0);" class="a_workroom">加入工作室</a>
+                      <a href="apply_office.html" class="a_workroom">创建工作室</a>
+                  </div>
+                  <div class="add_reason">
+                      <h3 class="a_wr">加入工作室</h3>
+                      <p class="apply_r">请输入申请理由。</p>
+                      <p><input type="text" class="r_area"/></p>
+                      <p><input type="button" value="发送" class="send"/></p>
+                  </div>
+              </div>
+              <div class="remind_frame">
+                  <p class="remind">
+                      <span class="remind_pic"></span>
+                      您的申请已发送成功，工作室管理员会尽快联系您
+                  </p>
+              </div>
+          </div>
+        </div> 
+    </div>
+
+
+
+  <!-- 底部开始 -->
+  <div id="footer">
+      <div class="footer_list">
+          <div class="m_center">
+              <span><a href="about_us.html">关于我们</a></span>
+              <span><a href="contact_us.html">联系我们</a></span>
+              <span><a href="add_us.html">加盟我们</a></span>
+              <span><a href="user_feedback.html">用户反馈</a></span>
+          </div>
+      </div>
+      <div class="bottom_title">&copy;2014&nbsp;&nbsp;neartrader京公网安备11010802012285号 | 京icp备12031756号-3</div>
+  </div>
+  <!-- 底部结束 -->
+  <!--登录开始-->
+    <div id="layer_orderMsg" class="layer_orderMsg">
+            <div id="layer_frame">                 
+                 <div class="close clearfix">
+                      <div class="close_pic" onclick="closeWindow01();">&Chi;</div>
+                 </div>
+                 <div class="center_main">
+                      <form action="">
+                          <div class="one_div clearfix">
+                              <span class="logoin">登录</span>
+                          </div>
+                          <div class="two_div common_c">
+                              <p class="p_style">账号：</p>
+                              <input type="text" id="user" class="input_test" value="昵称/手机号"/>
+                          </div>
+                          <div class="three_div common_c">
+                              <p class="p_style">密码：</p>
+                              <input type="password" id="password" value=""/>
+                          </div>
+                          <div class="four_div">
+                              <p><!-- *账号和密码不匹配，请重新输入 --></p>
+                          </div>
+                          <div class="five_div clearfix">
+                              <div class="l_f">
+                                <span>
+                                    <input type="radio" name="user" value=""/>
+                                    </span>
+                                    <span>投顾登录</span>
+                              </div>
+                            <div class="l_f user-login">
+                                <span>
+                                    <input type="radio" name="user" value="" checked="checked"/>
+                                </span>
+                                    <span>用户登录</span>
+                            </div>
+                          </div>
+                          <div class="six_div">
+                              <input type="button" name="" value="登录" id="charge"/>
+                          </div>
+                      </form>
+                 </div>
+            </div>
+    </div>
+  <!--登录结束-->
+</body>
+</html>

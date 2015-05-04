@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>创建工作室</title>
+  <link href="../css/common.css" type="text/css" rel="stylesheet">
+  <link href="../css/my_office.css" type="text/css" rel="stylesheet">
+  <link href="../css/decorate_office.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
+  <script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+  <!-- 导航开始 -->
+  <div id="top">
+        <div id="top_list" class="w_1100">
+          <a href="javascript:void(0)" class="login_in" onclick ="login();">登录</a>
+          <a href="javascript:void(0)" class="common_cf">大众理财</a>
+        </div>
+  </div>
+  <div id="header">
+    <div id="header_list" class="w_1100">
+      <div class="list_left">
+        <a href="index.html" class="logo_pic"><img src="../images/logo.jpg" alt="logo" /></a>
+        <span class="logo_name">嘉实财富</span>
+      </div>
+      <div class="list_right">
+        <ul class="list_item clearfix">
+          <li class="bg-white"><a href="javascript:void(0);">顾问/工作室</a></li>
+          <li><a href="product.html">产品投资</a></li>
+          <li><a href="personal_information.html">个人首页</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 导航结束 -->
+    <div id="model_001">
+      <div class="m_content w_1100_center">
+        <div class="div_left clearfix">
+          <div class="intro_pic">
+              <a href="javascript:void(0);"><img src="../images/renwu/ren-2.jpg" alt="" /></a>
+          </div>
+          <div class="intro_detail_model001 f_left">
+              <a href="personal_information.html">个人主页</a>
+              <a href="decorate_office.html" class="wd">我的工作室</a>
+              <a href="javascript:void(0);">个人设置</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="model_002" class="w_1100_center clearfix">
+        <div class="m_002_l">
+            <a href="decorate.html" id="md_01">
+                <span class="or_div bgcolor">
+                    <span class="icon_picture pic002 w_color_02"></span>
+                    <i class="lit_p appear"></i>
+                    创建工作室
+                </span>
+            </a>
+            <a href="member_manage.html" id="md_03">
+                <span class="or_div">
+                    <span class="icon_picture pic004"></span>
+                    <i class="lit_p"></i>
+                    顾问管理
+                </span>
+            </a>
+            <a href="#" id="md_04">
+                <span class="or_div">
+                  <span class="icon_picture pic001"></span>
+                  <i class="lit_p"></i>
+                  基本信息
+                </span>
+            </a>            
+        </div>
+        <div class="m_002_r">
+          <div id="content_frame">
+              <div class="b_label">
+                 <p class="b_txt">基本信息</p>
+              </div>
+              <div class="do_content">
+                  <div class="office_item clearfix">
+                      <span class="label f_left">名称:</span>
+                      <div class="eamil_txt f_left">
+                          <input type="text" value="" class="item_txt" onfocus="if(this.value==''){this.value='';this.style.color='#1a1a1a'}" onblur="if(this.value==''){this.value='';this.style.color='#ccc'}"/>  
+                      </div>
+                  </div>
+                  <div class="office_item clearfix">
+                      <span class="label f_left">Email:</span>
+                      <div class="eamil_txt f_left">
+                          <input type="text" value="" class="item_txt" onfocus="if(this.value==''){this.value='';this.style.color='#1a1a1a'}" onblur="if(this.value==''){this.value='';this.style.color='#ccc'}"/>  
+                      </div>
+                  </div>
+                  <div class="office_item clearfix">
+                      <span class="label f_left">电话:</span>
+                      <div class="eamil_txt f_left">
+                          <input type="text" value="" class="item_txt" onfocus="if(this.value==''){this.value='';this.style.color='#1a1a1a'}" onblur="if(this.value==''){this.value='';this.style.color='#ccc'}"/>  
+                      </div>
+                  </div>
+                  <div class="office_item clearfix">
+                      <span class="label f_left">地址:</span>
+                      <div class="eamil_txt f_left">
+                          <!--地址选择开始-->
+                          <div id="sjld" style="width:570px;position:relative;">
+                            <div class="m_zlxg" id="shenfen">
+                              <p title="">选择省份</p>
+                              <div class="m_zlxg2">
+                                <ul></ul>
+                              </div>
+                            </div>
+                            <div class="m_zlxg" id="chengshi">
+                              <p title="">选择城市</p>
+                              <div class="m_zlxg2">
+                                <ul></ul>
+                              </div>
+                            </div>
+                            <div class="m_zlxg" id="quyu">
+                              <p title="">选择区域</p>
+                              <div class="m_zlxg2">
+                                <ul></ul>
+                              </div>
+                            </div>
+                            <input id="sfdq_num" type="hidden" value="" />
+                            <input id="csdq_num" type="hidden" value="" />
+                            <input id="sfdq_tj" type="hidden" value="" />
+                            <input id="csdq_tj" type="hidden" value="" />
+                            <input id="qydq_tj" type="hidden" value="" />
+                          </div>
+
+                          <script type="text/javascript" src="../js/address.js"></script>
+                          <script type="text/javascript">
+                          $(function(){
+                            $("#sjld").sjld("#shenfen","#chengshi","#quyu");
+                          });
+                          </script>
+                          <!--地址选择结束-->
+                          <input type="text" class="add_txt input_test"/>
+                      </div>
+                  </div>
+                  <div class="office_item clearfix">
+                      <span class="label f_left">一句话简介:</span>
+                      <div class="eamil_txt f_left">
+                          <input type="text" class="words" maxlength="60" onfocus="if(this.value==''){this.value='';this.style.color='#1a1a1a'}" onblur="if(this.value==''){this.value='';this.style.color='#ccc'}"/>
+                          <p class="p_label">
+                              (2-60个字，用户在筛选时会看到的介绍信息)
+                              <span class="red_label">*简介不能为空</span>
+                          </p>
+                      </div>
+                  </div>
+                  <div class="office_item clearfix">
+                      <span class="label f_left">logo上传:</span>
+                      <div class="eamil_txt f_left">
+                          <input type="file" class="up_link" value="上传" />
+                          <p class="uploading">(支持JPG、GIF、PNG格式图片，不超过5M。拖拽或缩放图中的虚线方格可调整头像，注意右侧小头像的预览效果。)</p>
+                          <div class="preview_pic clearfix">
+                               <div class="large_pic f_left">
+                                   <div class="standard"></div>
+                               </div>
+                               <div class="little_pic f_left">
+                                   <p class="pv">logo预览</p>
+                                   <div class="stan_lit">
+                                      <img src="../images/detail_03.jpg" alt="" />
+                                   </div>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="b_label">
+                 <p class="b_txt">详情介绍</p>
+              </div>
+              <div class="intro_detail">
+                   <form action="">
+                       <input type="text" class="text_in"/>
+                       <div class="btns">
+                           <input type="button" value="保存草稿"/>
+                           <input type="button" value="预览"/>
+                           <input type="button" value="发布"/>
+                       </div>
+                   </form>
+              </div>
+          </div>
+        </div> 
+    </div>
+
+
+
+  <!-- 底部开始 -->
+  <div id="footer">
+      <div class="footer_list">
+          <div class="m_center">
+              <span><a href="about_us.html">关于我们</a></span>
+              <span><a href="contact_us.html">联系我们</a></span>
+              <span><a href="add_us.html">加盟我们</a></span>
+              <span><a href="user_feedback.html">用户反馈</a></span>
+          </div>
+      </div>
+      <div class="bottom_title">&copy;2014&nbsp;&nbsp;neartrader京公网安备11010802012285号 | 京icp备12031756号-3</div>
+  </div>
+  <!-- 底部结束 -->
+  <!--登录开始-->
+    <div id="layer_orderMsg" class="layer_orderMsg">
+            <div id="layer_frame">                 
+                 <div class="close clearfix">
+                      <div class="close_pic" onclick="closeWindow01();">&Chi;</div>
+                 </div>
+                 <div class="center_main">
+                      <form action="">
+                          <div class="one_div clearfix">
+                              <span class="logoin">登录</span>
+                          </div>
+                          <div class="two_div common_c">
+                              <p class="p_style">账号：</p>
+                              <input type="text" id="user" class="input_test" value="昵称/手机号"/>
+                          </div>
+                          <div class="three_div common_c">
+                              <p class="p_style">密码：</p>
+                              <input type="password" id="password" value=""/>
+                          </div>
+                          <div class="four_div">
+                              <p><!-- *账号和密码不匹配，请重新输入 --></p>
+                          </div>
+                          <div class="five_div clearfix">
+                              <div class="l_f">
+                                <span>
+                                    <input type="radio" name="user" value=""/>
+                                    </span>
+                                    <span>投顾登录</span>
+                              </div>
+                            <div class="l_f user-login">
+                                <span>
+                                    <input type="radio" name="user" value="" checked="checked"/>
+                                </span>
+                                    <span>用户登录</span>
+                            </div>
+                          </div>
+                          <div class="six_div">
+                              <input type="button" name="" value="登录" id="charge"/>
+                          </div>
+                      </form>
+                 </div>
+            </div>
+    </div>
+  <!--登录结束-->
+</body>
+</html>

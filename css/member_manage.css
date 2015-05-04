@@ -1,0 +1,40 @@
+.do_title{margin-top:40px;color:#6c6c6c;font-size:24px;}
+.un_txt{color:#b29761;font-size: 12px;font-weight:normal;}
+.un_pic{padding:0 13px;background:url(../images/icon.png) no-repeat -364px 0px;}
+.b_label{border-bottom:1px solid #ccc;}
+.b_txt{padding:15px 0px;border-bottom:3px solid #ff8328;display:block;width:68px;color:#ff8328;}
+
+/*table内容*/
+.table_content{font-family:"microsoft yahei";color:#6c6c6c;margin-top:15px;font-size:14px;}
+.table_content table tr{height:60px;}
+.mem_pic{width:40px;height:40px;overflow:hidden;}
+.mem_pic img{width:40px;height:40px;}
+#b_label{width:740px;}
+
+.table_01{font-weight:bold;}
+.table_content{position:relative;}
+.make_sure{position:absolute;right:30px;top:-25px;}
+.page{margin-right:30px;text-align: right;}
+.list{float:right;}
+.page .border{display:block;float:left;width:20px;height:20px;text-align:center;border:1px solid #fff;color:#6c6c6c;}
+
+/*添加成员style*/
+.add_content{font-family:"microsoft yahei";font-size:14px;color:#6c6c6c;}
+.add_member{margin-top:30px;}
+.per_pic{margin:20px 0px 10px;width:140px;height:140px;border-radius:140px;overflow:hidden;}
+.per_pic img{width:140px;height:140px;}
+.search{margin-bottom: 10px;border:none;width:175px;padding-left:3px;height:30px;}
+.search_result{width:140px;text-align:center;}
+.add_btn{display:block;width:60px;height:25px;text-align:center;line-height:25px;margin-left:35px;margin-top:10px;border:1px solid #ff8328;color:#ff8328;}
+.add_left{margin-top: 30px;width:280px;}
+.search_div{width:200px;border:1px solid #ccc;height:30px;}
+
+.add_right{margin:0 auto;}
+.set_id{margin:80px 0px 0px 50px;border:1px dashed #ccc;background:#f5f5f5;padding:15px 50px;}
+/* .set_div{text-align:center;} */
+.save_btn{cursor:pointer;width:60px;height:25px;background:none;border:none;color:#6c6c6c;border:1px solid #bbb;background:#fff;}
+.list_btn{text-align: center;}
+.set_div p{margin:10px;}
+.page .border.border_color{border:1px solid #ccc;}
+.delete{color:#ff3535;}
+.a_name{color:#6c6c6c;}
