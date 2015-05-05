@@ -8,21 +8,7 @@
   <link href="../css/member_manage.css" type="text/css" rel="stylesheet">
   <script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
   <script type="text/javascript" src="../js/common.js"></script>
-  <script type="text/javascript">
-     $(document).ready(function(){
-           //导航固定fixed
-           $(window).scroll(function(){
-                var fix=$(window).scrollTop();
-                if(fix >=210){
-                   $('#model_002 .m_002_l').addClass('fixed');
-                }else{
-                   $('#model_002 .m_002_l').removeClass('fixed');
-                }
-            });
-     });
-       
-  
-  </script>
+  <script type="text/javascript" src="../js/member_manage.js"></script>
 </head>
 <body>
   <!-- 导航开始 -->
@@ -94,187 +80,259 @@
                  <p class="b_txt">成员信息</p>
               </div>
               <div class="table_content">
-                  <a href="javascript:void(0);" class="make_sure">修改</a>
-                  <table cellpadding="0" cellspacing="0" class="table_01">
-                      <tr>
-                          <td width='120' align="center">&nbsp;</td>
-                          <td width='160' align="center">真实姓名</td>
-                          <td width='160' align="center">昵称</td>
-                          <td width='160' align="center">工作室身份</td>
-                          <td width='160' align="center">&nbsp;</td>
-                      </tr>
-                  </table>
+                  <a href="javascript:void(0);" change="01" onclick="Save();" class="make_sure">修改</a>
                   <table cellpadding="0" cellspacing="0" class="table_02">
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>
-                          </td>
-                          <td width='150' align="center">
-                              <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='150' align="center">昵称xx</td>
-                          <td width='150' align="center">顾问</td>
-                          <td width='150' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>
-                          </td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='160' align="center">昵称xx</td>
-                          <td width='160' align="center">顾问</td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>
-                          </td>
-                          <td width='160' align="center">
-                               <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='160' align="center">昵称xx</td>
-                          <td width='160' align="center">顾问</td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>
-                          </td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='160' align="center">昵称xx</td>
-                          <td width='160' align="center">顾问</td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>s
-                          </td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='160' align="center">昵称xx</td>
-                          <td width='160' align="center">顾问</td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>
-                          </td>
-                          <td width='150' align="center">
-                              <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='150' align="center">昵称xx</td>
-                          <td width='150' align="center">顾问</td>
-                          <td width='150' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>
-                          </td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='160' align="center">昵称xx</td>
-                          <td width='160' align="center">顾问</td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>
-                          </td>
-                          <td width='160' align="center">
-                               <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='160' align="center">昵称xx</td>
-                          <td width='160' align="center">顾问</td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>
-                          </td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='160' align="center">昵称xx</td>
-                          <td width='160' align="center">顾问</td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td width='120' align="center">
-                              <div class="mem_pic">
-                                  <a href="javascript:void(0);">
-                                      <img src="../images/renwu/person_01.jpg" alt="" />
-                                  </a>
-                              </div>
-                          </td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="a_name">张津则</a>
-                          </td>
-                          <td width='160' align="center">昵称xx</td>
-                          <td width='160' align="center">顾问</td>
-                          <td width='160' align="center">
-                              <a href="javascript:void(0);" class="delete">删除成员</a>
-                          </td>
-                      </tr>
+                      <thead>
+                          <tr>
+                              <th>&nbsp;</th>
+                              <th>真实姓名</th>
+                              <th>昵称</th>
+                              <th>工作室身份</th>
+                              <th>&nbsp;</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='150' align="center">
+                                  <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='150' align="center">昵称xx</td>
+                              <td width='150' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='150' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='160' align="center">昵称xx</td>
+                              <td width='160' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='160' align="center">
+                                   <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='160' align="center">昵称xx</td>
+                              <td width='160' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='160' align="center">昵称xx</td>
+                              <td width='160' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='160' align="center">昵称xx</td>
+                              <td width='160' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='150' align="center">
+                                  <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='150' align="center">昵称xx</td>
+                              <td width='150' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='150' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='160' align="center">昵称xx</td>
+                              <td width='160' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='160' align="center">
+                                   <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='160' align="center">昵称xx</td>
+                              <td width='160' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='160' align="center">昵称xx</td>
+                              <td width='160' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td width='120' align="center">
+                                  <div class="mem_pic">
+                                      <a href="javascript:void(0);">
+                                          <img src="../images/renwu/person_01.jpg" alt="" />
+                                      </a>
+                                  </div>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="a_name">张津则</a>
+                              </td>
+                              <td width='160' align="center">昵称xx</td>
+                              <td width='160' align="center" class="c_adviser">
+                                  <p class="i-adviser">顾问</p>
+                                  <select name="" id="" class="identity">
+                                      <option value="">顾问</option>
+                                      <option value="">管理员</option>
+                                      <option value="">管理员，顾问</option>
+                                  </select>
+                              </td>
+                              <td width='160' align="center">
+                                  <a href="javascript:void(0);" class="delete">删除成员</a>
+                              </td>
+                          </tr>
+                      </tbody>
                   </table>
                   <div class="page clearfix">
                       <div class="list">

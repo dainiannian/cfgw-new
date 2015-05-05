@@ -1,38 +1,34 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8">
   <title>用户反馈</title>
   <link href="../css/common.css" type="text/css" rel="stylesheet">
   <link href="../css/about.css" type="text/css" rel="stylesheet">
  <link href="../css/change_password.css" type="text/css" rel="stylesheet">
-  <script type="text/javascript" src="../js/jquery-1.2.6.pack.js"></script>
-  <script type="text/javascript" src="../js/login.js"></script>
+  <script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
+  <script type="text/javascript" src="../js/common.js"></script>
 </head>
 <body>
   <!-- 导航开始 -->
   <div id="top">
         <div id="top_list" class="w_1100">
-          <a href="javascript:void(0)" class="login_in" onclick ="login();">登录/</a>
-          <a href="javascript:void(0)" class="register_js" style="padding-left:0px;" onclick ="register();">注册</a>
-          <a href="javascript:void(0)" class="join_js">加盟工作室</a>
+          <a href="javascript:void(0)" class="login_in" onclick ="login();">登录</a>
           <a href="javascript:void(0)" class="common_cf">大众理财</a>
         </div>
   </div>
   <div id="header">
     <div id="header_list" class="w_1100">
       <div class="list_left">
-        <p class="logo_pic"><img src="../images/logo.jpg" alt="logo" /></p>
+        <a href="index.html" class="logo_pic"><img src="../images/logo.jpg" alt="logo" /></a>
         <span class="logo_name">嘉实财富</span>
       </div>
       <div class="list_right">
-        <ul class="list_item">
-          <li><a href="">定制服务</a></li>
-          <li><a href="">顾问/工作室</a></li>
-          <li><a href="">观点视角</a></li>
-          <li><a href="">产品投资</a></li>
-          <div class="clear"></div>
-        </ul> 
+        <ul class="list_item clearfix">
+          <li class="bg-white"><a href="javascript:void(0);">顾问/工作室</a></li>
+          <li><a href="product.html">产品投资</a></li>
+          <li><a href="personal_information.html">个人首页</a></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -65,11 +61,10 @@
   <div id="footer">
     <div class="footer_list">
       <div class="m_center">
-        <span><a href="javascript:void(0)">关于我们</a></span>
-        <span><a href="javascript:void(0)">联系我们</a></span>
-        <span><a href="javascript:void(0)">加盟我们</a></span>
-        <span><a href="javascript:void(0)">帮助中心</a></span>
-        <span><a href="javascript:void(0)">用户反馈</a></span>
+        <span><a href="about_us.html">关于我们</a></span>
+        <span><a href="contact_us.html">联系我们</a></span>
+        <span><a href="add_us.html">加盟我们</a></span>
+        <span><a href="user_feedback.html">用户反馈</a></span>
       </div>
     </div>
     <div class="bottom_title">&copy;2014&nbsp;&nbsp;neartrader京公网安备11010802012285号 | 京icp备12031756号-3</div>
@@ -78,20 +73,17 @@
   <!--登录开始-->
     <div id="layer_orderMsg" class="layer_orderMsg">
             <div id="layer_frame">                 
-                 <div class="close">
-                      <div class="close_pic" onclick="closeWindow01();">&Chi;</div>                                             
-                      <div class="clear"></div>
+                 <div class="close clearfix">
+                      <div class="close_pic" onclick="closeWindow01();">&Chi;</div>
                  </div>
                  <div class="center_main">
                    <form action="">
-                    <div class="one_div">
+                    <div class="one_div clearfix">
                       <span class="logoin">登录</span>
-                      <span class="register">没有账号？<a id="register" href="javascript:void(0);" onclick="register()">点击注册</a></span>
-                      <div class="clear"></div>
                     </div>
                       <div class="two_div common_c">
                         <p class="p_style">账号：</p>
-                        <input type="text" id="user" value="昵称/手机号" onfocus="if(value=='昵称/手机号'){value=''}" onblur="if(value==''){value='昵称/手机号'}"/>
+                        <input type="text" id="user" class="input_test" value="昵称/手机号"/>
                       </div>
                     <div class="three_div common_c">
                       <p class="p_style">密码：</p>
@@ -100,142 +92,25 @@
                     <div class="four_div">
                       <p><!-- *账号和密码不匹配，请重新输入 --></p>
                     </div>
-                    <div class="five_div">
+                    <div class="five_div clearfix">
                       <div class="l_f">
                         <span>
-                          <input type="checkbox" name="" value=""/>
+                          <input type="radio" name="user" value=""/>
                         </span>
-                          <span>记住我</span>
+                          <span>投顾登录</span>
                       </div>
-                      <div class="r_f">
-                        <a href="javascript:void(0);" onclick="forgetPassword();">忘记密码</a>
+                      <div class="l_f user-login">
+                        <span>
+                          <input type="radio" name="user" value="" checked="checked"/>
+                        </span>
+                          <span>用户登录</span>
                       </div>
-                      <div class="clear"></div>
                     </div>
                     <div class="six_div">
                       <input type="button" name="" value="登录" id="charge"/>
                     </div>
                    </form>
                  </div>
-            </div>
-            <div id="register_frame" style="display:none;">
-                 <div class="close">
-                      <div class="close_pic" onclick="closeWindow02();">&Chi;</div>                              
-                      <div class="clear"></div>
-                 </div>
-                 <div class="center_main">
-                   <form action="">
-                    <div class="one_div">
-                      <span class="logoin">注册</span>
-                      <span class="register">已有账号？<a id="register" href="javascript:void(0);" onclick="login();">点击登录</a></span>
-                      <div class="clear"></div>
-                    </div>
-                      <div class="two_div common_c">
-                        <p class="p_style">昵称：</p>
-                        <input type="text" id="username"/>
-                      </div>
-                      <div class="new_div common_c">
-                        <p class="p_style">手机：</p>
-                        <input type="text" id="p_number"/>
-                      </div>
-                    <div class="three_div common_c">
-                      <p class="p_style">密码：</p>
-                        <input type="password" id="password" value=""/>
-                    </div>
-                    <div class="four_div">
-                      <p>密码为6位字符以上</p>
-                    </div>
-                    <div class="five_div">
-                      <div class="l_f common_c" style="width:140px;">
-                              <input type="text" value="请输入验证码" onfocus="if(value=='请输入验证码'){value=''}" onblur="if(value==''){value='请输入验证码'}"/></div>
-                      <div class="r_f common_c get_m">
-                              <input type="button" value="获取验证码" style="width:80px;"/>
-                      </div>
-                      <div class="clear"></div>
-                    </div>
-                    <div class="agreement">
-                      <input type="checkbox" name="" id="" checked="checked"/>
-                      我已阅读嘉实并同意<a href="javascript:void(0);" onclick="agreement();" style="text-decoration:underline;">嘉实财富网上服务协议</a>
-                    </div>
-                    <div class="six_div">
-                      <input type="button" name="" value="登录" id="charge"/>
-                    </div>
-                   </form>
-                 </div>
-            </div>
-            <div id="agreement_frame">
-                 <div class="close">
-                        <div class="close_pic" onclick="closeWindow03();">&Chi;</div>                              
-                        <div class="clear"></div>
-                   </div>
-                 <p class="service_agree">服务协议</p>
-                 <p class="ser_list">
-                    <span>1.&nbsp;&nbsp;特别提示</span>
-                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣。
-                        <span>2.&nbsp;&nbsp;服务内容</span>
-                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                    来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣
-                        来钱网及其涉及产品、相关软件的所有权和运作权归嘉实博趣。
-                 </p>
-            </div>
-            <div id="forget_password_frame">
-              <div class="close">
-                  <div class="close_pic" onclick="closeWindow04();">&Chi;</div>                              
-                  <div class="clear"></div>
-              </div>
-              <div class="forget_password_p">
-                <p class="f_b">忘记密码</p>
-                <div class="fore">
-                  <input type="text" value="请输入手机号" class="common_c" onfocus="if(value=='请输入手机号'){value=''}" onblur="if(value==''){value='请输入手机号'}"/>
-                </div>
-                <div class="fore">
-                  <span class="left_input_01">
-                      <input type="text" value="请输入验证码" id="checked_number" class="common_c" onfocus="if(value=='请输入验证码'){value=''}" onblur="if(value==''){value='请输入验证码'}"/>
-                      </span>
-                      <span class="right_input_01">
-                        <input type="button" id="get_number" class="get_number common_c" value="获取验证码"/>
-                      </span>
-                      <div class="clear"></div>    
-                </div>
-                    <div class="fore">
-                      <span class="left_input_02">
-                      <input type="text" value="请输入右图字母" id="checked_number" class="common_c" onfocus="if(value=='请输入右图字母'){value=''}" onblur="if(value==''){value='请输入右图字母'}"/>
-                      </span>
-                      <span class="right_input_02 common_c">
-                        zdou
-                      </span>
-                      <div class="clear"></div>                      
-                    </div>
-                    <div class="fore" style="margin-bottom:60px;">
-                      <input type="button" id="next_stage" class="common_c" value="下一步" onclick="reset_password();"/>
-                    </div>                                    
-              </div>
-            </div>
-            <div id="reset_password">
-              <div class="close">
-                  <div class="close_pic" onclick="closeWindow05();">&Chi;</div>                           
-                  <div class="clear"></div>
-              </div>
-              <div id="reset_main">
-                <p class="res_p">重置密码</p>
-                <input type="text" value="输入新密码" id="new_password" class="common_c"/>
-                <input type="text" value="再次输入新密码" id="sure_password" class="common_c"/>
-                  <input type="button" value="重置" class="common_c" id="reset_pass" onclick="reset_pass();"/>
-              </div>
             </div>
     </div>
     <!--登录结束-->
